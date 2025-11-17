@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aaron Krishna Software Development Portfolio</title>
+  <meta name="description" content="Aaron Krishna — Software developer. Projects, skills and contact." />
+  <meta name="author" content="Aaron Krishna" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <h1 class="site-title">Aaron Krishna</h1>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2 id="hero-title">Hi — I'm Aaron Krishna</h2>
+          <p class="lead">Software developer building clean, performant web applications with a focus on developer experience and maintainability.</p>
+          <p class="cta-row">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn ghost" id="download-resume" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </p>
+          <p class="social">
+            <a href="https://github.com/ArkTroooper" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="mailto:you@example.com">Email</a>
+          </p>
+        </div>
+
+        <div class="hero-image" aria-hidden="true">
+          <div class="avatar">AK</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about" aria-labelledby="about-title">
+      <h3 id="about-title">About</h3>
+      <p>I’m a software engineer focused on building clear, maintainable systems and pleasant user experiences. I enjoy working across the stack and investing in strong developer workflows.</p>
+    </section>
+
+    <section id="projects" class="container projects" aria-labelledby="projects-title">
+      <h3 id="projects-title">Projects</h3>
+      <div id="projects-grid" class="grid" aria-live="polite">
+        <!-- Projects rendered by script.js -->
+      </div>
+    </section>
+
+    <section id="skills" class="container skills" aria-labelledby="skills-title">
+      <h3 id="skills-title">Skills</h3>
+      <ul class="skill-list">
+        <li>JavaScript / TypeScript</li>
+        <li>React / Next.js</li>
+        <li>Node / Express</li>
+        <li>Postgres / MongoDB</li>
+        <li>Docker / CI</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact" aria-labelledby="contact-title">
+      <h3 id="contact-title">Contact</h3>
+      <p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a>, or use the links above.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small>© <span id="year"></span> Aaron Krishna — Built with care.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

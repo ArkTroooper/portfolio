@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Project Atlas (placeholder)",
+    "description": "A data visualization dashboard built with React and D3. Real-time charts and performant rendering.",
+    "repo": "https://github.com/ArkTroooper/project-atlas",
+    "live": "https://project-atlas.example.com"
+  },
+  {
+    "title": "API Service (placeholder)",
+    "description": "A RESTful API microservice in Node/Express with PostgreSQL and JWT auth.",
+    "repo": "https://github.com/ArkTroooper/api-service",
+    "live": ""
+  }
+]
